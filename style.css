@@ -1,0 +1,97 @@
+    body{
+            padding: 0;
+            margin: 0;
+            background-color: #800080;            
+            align-items: center;
+            align-content: center;
+            justify-content: center;
+            text-align: center;
+        }
+        
+        .container{
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(255, 255, 245, 0.2);
+            padding: 20px;
+            margin: 200px 50px 0px 50px;
+            border-radius: 10px;
+            box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+            transition-timing-function: ease-in 1s normal;
+            display: none;
+        }
+        
+        p{
+            color: white;
+            font-family: "arial", san-serif;
+            font-size: 25px;
+            font-weight: 250;
+        }
+        
+        hr{
+            width: 180px;
+            display: flex;
+            flex-direction: center;
+        }
+        
+        #Receive{
+            margin: 50px 0 0 0;        
+            border: none;
+            padding: 10px;
+            width: 150px;
+            border-radius: 20px;
+            height: 50px;
+            background-color: #900078;
+            color: white;
+            text-transform: Uppercase;
+        }
+        
+        #Receive:hover{
+            background: #50ff90;
+            color: #5f5f5f;
+            box-shadow: 1px 1px 10px #ff00ff;
+        }
+        
+        .Receive:active{
+            background: #ff0045;
+            color: #ffffff;
+        }
+        
+        .Receive{        
+            border: none;
+            padding: 10px;
+            width: 150px;
+            border-radius: 20px;
+            height: 50px;
+            background-color: #900078;
+            color: white;
+            text-transform: Uppercase;
+        }
+        
+        .Receive:hover{
+            background: #50ff90;
+            color: #5f5f5f;
+            box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.2);
+        }
+        
+        #Receive:active{
+            background: #ff0045;
+            color: #ffffff;
+        }
+        
+        
+        #happy{
+          background-color: #000000;
+          border-radius: 5px;
+          display: none;
+          padding: 20px;
+          height: 50px;
+        }
+        
+        
+        .suggestion{
+            font-size: 20px;
+            font-weight: 350;
+            text-align: center;
+            text-decoration: underline;
+        }
+        
