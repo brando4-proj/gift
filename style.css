@@ -1,4 +1,4 @@
-@media(max-width: 320px){
+@media All and (max-width: 320px){
 body{
             padding: 0;
             margin: 0;
